@@ -136,6 +136,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTestPort1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Truck_scales";
             this.Text = "Truck_scales";
             this.Load += new System.EventHandler(this.Truck_scales_Load);
